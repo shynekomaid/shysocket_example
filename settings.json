@@ -1,0 +1,19 @@
+{
+  "client": {
+    "ip": "localhost",
+    "port": 12345,
+    "recv": 4096,
+    "history": "clientHistory",
+    "saveHistory": true
+  },
+  "server": {
+    "ip": "localhost",
+    "port": 12345,
+    "recv": 4096,
+    "returnMessage": "OK",
+    "sleepTime": 1,
+    "listen": 5,
+    "history": "serverHistory",
+    "saveHistory": true
+  }
+}
