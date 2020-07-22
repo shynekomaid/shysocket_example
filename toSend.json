@@ -1,4 +1,5 @@
 {
-  "sender": "client",
-  "msg": "hello"
+  "name": "Test",
+  "id": 3,
+  "saveAs": "saveMe.json"
 }

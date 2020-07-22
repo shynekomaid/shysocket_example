@@ -13,6 +13,6 @@ client.send(data.encode())
 from_server = client.recv(settings["recv"])
 client.close()
 print(from_server.decode())
-if settings["saveHistory"]:
-    with open(settings["history"], "a") as f:
+if settings["historyPolitics"]["save"]:
+    with open(settings["historyPolitics"]["file"], "a") as f:
         f.write(f"{datetime.datetime.now()} > {from_server.decode()}\n")

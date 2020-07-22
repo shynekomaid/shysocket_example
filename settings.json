@@ -3,17 +3,28 @@
     "ip": "localhost",
     "port": 12345,
     "recv": 4096,
-    "history": "clientHistory",
-    "saveHistory": true
+    "historyPolitics": {
+      "save": true,
+      "file": "clientHistory"
+    }
   },
   "server": {
     "ip": "localhost",
     "port": 12345,
     "recv": 4096,
+    "key": "",
+    "needKey": false,
     "returnMessage": "OK",
-    "sleepTime": 1,
+    "errorMessage": "No valid key",
+    "sleepTime": 0.1,
     "listen": 5,
-    "history": "serverHistory",
-    "saveHistory": true
+    "historyPolitics": {
+      "save": true,
+      "file": "serverHistory"
+    },
+    "savePolitics": {
+      "save": true,
+      "file": "temp.json"
+    }
   }
 }
