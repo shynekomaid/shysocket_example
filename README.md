@@ -4,7 +4,7 @@ Yet another socket server-client with blackjack and hookers.
 # config
 All settings, both for the client and the server, are stored in the settings.json file, in the corresponding sections. 
 
-The client sends json, which is stored in the ["send" ] field to the server. The location of the server is ["ip"] and ["port"].
+The client sends json, which is stored in the ["send"] field to the server. The location of the server is ["ip"] and ["port"].
 If ["historyPolitics"]["save"] : "true", the client will write the server's response to ["historyPolitics"]["file"] .
 
 The server, when receiving a request from a client, checks if the client requires the password ["needKey"] and, if so, checks if the received json has a "key" and is equal to the ["key"] field from the settings.
