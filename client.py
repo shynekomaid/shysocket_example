@@ -4,7 +4,7 @@ import datetime
 with open("settings.json", "r") as f:
     settings = json.loads(f.read())["client"]
 
-with open("toSend.json", "r") as f:
+with open(settings["send"], "r") as f:
     data = f.read()
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

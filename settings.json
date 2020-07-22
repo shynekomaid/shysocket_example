@@ -6,7 +6,8 @@
     "historyPolitics": {
       "save": true,
       "file": "clientHistory"
-    }
+    },
+    "send": "toSend.json"
   },
   "server": {
     "ip": "localhost",
